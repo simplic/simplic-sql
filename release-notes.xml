@@ -1,2 +1,5 @@
 <ReleaseNotes>
+  <ChangeSet guid="ca335db6-e6bf-4b35-814c-cc21308a1403">
+    <Change type="feature">Adds a method for retrieving table-columns.</Change>
+  </ChangeSet>
 </ReleaseNotes>
