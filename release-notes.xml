@@ -1,2 +1,5 @@
 <ReleaseNotes>
+  <ChangeSet>
+    <Change type="feature">Adds a method for retrieving table-columns.</Change>
+  </ChangeSet>
 </ReleaseNotes>
