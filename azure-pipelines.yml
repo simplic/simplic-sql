@@ -13,8 +13,13 @@ pr:
       - "*"
 pool:
   vmImage: windows-latest
+
 variables:
-  buildConfiguration: Release
+- group: simplic-deployment
+- group: simplic-deployment-dev01
+- name: buildConfiguration
+  value: "Release"
+
 resources:
   repositories:
     - repository: infrastructure
