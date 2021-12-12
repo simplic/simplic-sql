@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace Simplic.Sql
 {
+    /// <summary>
+    /// Revtrieve column-information from a relational database
+    /// </summary>
     public interface ISqlColumnService
     {
         /// <summary>
